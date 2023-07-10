@@ -1,0 +1,89 @@
+.body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulaire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:  25%;
+  margin-top: 10%;
+  background: white;
+  padding: 10px;
+  width: 400px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.formulaire h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  color:  rgb(53, 171, 206);
+}
+
+.formulaire .image {
+  width: 50%;
+  height: 300px;
+  /* background: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); */
+}
+
+.formulaire img {
+  width: 200px;
+  height: auto;
+  overflow: hidden;
+}
+
+form {
+  border: 0;
+  margin: 0;
+  /* background: white; */
+  height: 300px;
+  width: 50%;
+}
+
+form input {
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  opacity: 20px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.entre {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.boutton{
+  background:  rgb(53, 171, 206);
+}
+
+.inscription {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.inscription p {
+  color: rgb(14, 5, 5);
+  margin-bottom: 5px;
+}
+
+.inscription a {
+  color: rgb(53, 171, 206);
+  text-decoration: underline;
+}
+
+/* texte error */
+.hide {
+  display: none;
+}
