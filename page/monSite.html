@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>monSite</title>
+    <link rel="stylesheet" href="monSite.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <!-- la barre de naviguation -->
+    <div class="nav">
+        <div id="logo">SHN</div>
+        <div class="element">
+            <ul>
+                <li><a href="../page/monSite.html">Accueil</a></li>
+                <li><a href=".bloc-projets">Projets</a></li>
+                <li><a href=".cerifications">Certifications</a></li>
+                <li><input type="search" id="searchInput" placeholder="Recherche">
+                    <div id="searchResults"></div>
+                </li>
+            </ul>
+        </div>
+        <!-- boution changer de theme -->
+        <div class="boutton">
+            <button id="mode">
+                <span>Thème sombre</span>
+            </button>
+        </div>
+        <!-- compte -->
+        <!-- <div id="compte">
+            <button><img src="images/user.png" alt="Profile Picture"></button>
+        </div> -->
+    </div>
+
+    <!-- slide en format background -->
+    <div class="slides">
+
+        <div id="citation" class="text-center">
+            La vie est un mystère qu'il faut vivre, et non un problème à résoudre.
+        </div>
+        <div id="auteur" class="text-center">
+            Gandhi
+        </div>
+        <div id="nouveau" class="mt-2 text-center p-3 text-white font-weight-bold text-uppercase">
+            Nouvelle citation
+        </div>
+
+    </div>
+
+    <!-- les projets -->
+    <h2>Mes projets realisés</h2>
+    <div class="bloc-projets">
+        <!-- conteneur -->
+        <div id="projets">
+            <!-- projet 1 -->
+            <div class="projet">
+                <a href="">
+                    <div class="picture">
+                        <img src="../images/generer.png" alt="Mon premier projet">
+                    </div>
+                    <span>Generateur de citation</span>
+                    <span class="date">03/07/2023</span>
+                </a>
+            </div>
+            <!-- projet 2 -->
+            <div class="projet">
+                <a href="">
+                    <div class="picture">
+                        <img src="../images/illustration_2.jpg" alt="Mon premier projet">
+                    </div>
+                    <span>Change de theme</span>
+                    <span class="date">04/07/2023</span>
+                </a>
+            </div>
+            <!-- projet 3 -->
+            <div class="projet">
+                <a href="">
+                    <div class="picture">
+                        <img src="../images/Meteo.jpg" alt="Mon premier projet">
+                    </div>
+                    <span>Application Méteo</span>
+                    <span class="date">03/07/2023</span>
+                </a>
+            </div>
+            <!-- projet 4 -->
+            <div class="projet">
+                <a href="">
+                    <div class="picture">
+                        <img src="../images/geolocalissation.jpg" alt="Mon premier projet">
+                    </div>
+                    <span>Geolocalisation</span>
+                    <span class="date">03/07/2023</span>
+                </a>
+            </div>
+            <!-- projet 5 -->
+            <div class="projet">
+                <a href="">
+                    <div class="picture">
+                        <img src="../images/illustration_5.jpg" alt="Mon premier projet">
+                    </div>
+                    <span>Le titre du projet</span>
+                    <span class="date">03/07/2023</span>
+                </a>
+            </div>
+            <!-- projet 6 -->
+            <div class="projet">
+                <a href="">
+                    <div class="picture">
+                        <img src="../images/illustration_6.jpg" alt="Mon premier projet">
+                    </div>
+                    <span>Le titre du projet</span>
+                    <span class="date">03/07/2023</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- certifications -->
+    <div class="certifications">
+        <h2>MES CERTIFICATIONS</h2>
+        <p>
+            Il y a longtemps, je me suis laissé séduire par un</br>
+            monde où les chiffres binaires 0 et 1 dictent </br>
+            la realité:l'informatique </br>
+            Pour combler cet vide qui etait en moi </br>
+            alors il m'a fallu me lancer dans des formations.</br>
+            Et c'est en ce sens que j'obtient ces certificats.
+        </p>
+        <div class="mesCertif">
+            <div class="certif">
+                <img src="../images/illustration_2.jpg">
+                <span>Formation Ultime Javascript</span>
+            </div>
+            <div class="certif">
+                <img src="../images/illustration_2.jpg">
+                <span>Formation Ultime Javascript</span>
+            </div>
+            <div class="certif">
+                <img src="../images/illustration_2.jpg">
+                <span>Formation Ultime Javascript</span>
+            </div>
+        </div>
+    </div>
+    </br>
+
+    <!-- footer -->
+    <div class="footer">
+        <!-- mes reseaux contacts -->
+        <ul>
+            <a href="">
+                <li>
+                    <div id="social"><img src="../images/icones/facebook.png"></div>
+                    <span>Facebook</span>
+                </li>
+            </a>
+
+            <a href="">
+                <li>
+                    <div id="social"><img src="../images/icones/whatsapp.png"></div>
+                    <span>Whatsapp</span>
+                </li>
+            </a>
+
+            <a href="">
+                <li>
+                    <div id="social"><img src="../images/icones/linkedin.png"> </div>
+                    <span> Linkedin</span>
+                </li>
+            </a>
+
+        </ul>
+        <div id="annee">@2023-Tous les droits sont reservés</div>
+    </div>
+    <!-- code js -->
+    <script src="monSite.js"></script>
+</body>
+
+</html>
